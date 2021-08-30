@@ -8,16 +8,16 @@
   },
   "dependencies": {
     "array-counter": "^1.0.0",
-    "axios": "^0.18.0",
-    "node-sass": "^4.11.0",
-    "react": "^16.8.4",
+    "axios": "^0.18.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.14.0",
     "react-animate-on-scroll": "^2.1.5",
-    "react-dom": "^16.8.4",
-    "react-router-dom": "^5.0.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.1",
     "react-scripts": "2.1.8",
-    "react-scroll-to": "^2.0.5",
-    "react-smooth": "^1.0.2",
-    "react-textfit": "^1.1.0"
+    "react-scroll-to": "^2.0.10",
+    "react-smooth": "^1.0.6",
+    "react-textfit": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
