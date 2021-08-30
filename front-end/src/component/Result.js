@@ -67,7 +67,7 @@ export default class Result extends Component{
 
   //get a user's top artists	
   getTopArtists(){
-    const time_range = 'medium_term';
+    const time_range = 'long_term';
     const limit = 6;
     const offset = 0;
     axios.get(`https://api.spotify.com/v1/me/top/artists?time_range=${time_range}&limit=${limit}&offset=${offset}`, { headers: { 'Authorization': 'Bearer ' + access_token } })
@@ -87,7 +87,7 @@ export default class Result extends Component{
   }
 
   getTopTracks(){   
-    const time_range = 'medium_term';
+    const time_range = 'long_term';
     const limit = 5;
     const offset = 0;
     axios.get(`https://api.spotify.com/v1/me/top/tracks?time_range=${time_range}&limit=${limit}&offset=${offset}`, { headers: { 'Authorization': 'Bearer ' + access_token } })
@@ -102,7 +102,7 @@ export default class Result extends Component{
   }
 
   getPopularityAverage(){
-    const time_range = 'medium_term';
+    const time_range = 'long_term';
     const limit = 50;
     const offset = 0;
     axios.get(`https://api.spotify.com/v1/me/top/tracks?time_range=${time_range}&limit=${limit}&offset=${offset}`, { headers: { 'Authorization': 'Bearer ' + access_token } })
@@ -124,7 +124,7 @@ export default class Result extends Component{
   }
 
   getGenre(){
-    const time_range = 'medium_term';
+    const time_range = 'long_term';
     const limit = 50;
     const offset = 0;
     axios.get(`https://api.spotify.com/v1/me/top/artists?time_range=${time_range}&limit=${limit}&offset=${offset}`, { headers: { 'Authorization': 'Bearer ' + access_token } })
@@ -183,7 +183,7 @@ export default class Result extends Component{
   }
 
   getReleaseDate(){
-    const time_range = 'medium_term';
+    const time_range = 'long_term';
     const limit = 50;
     const offset = 0;
     axios.get(`https://api.spotify.com/v1/me/top/tracks?time_range=${time_range}&limit=${limit}&offset=${offset}`, { headers: { 'Authorization': 'Bearer ' + access_token } })
