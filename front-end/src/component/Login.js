@@ -5,7 +5,7 @@ export default class Login extends Component{
 
   login = () => {
     const my_client_id = 'df1b151174ac40db981ad60c6f4e5c3c';
-    const redirect_uri = 'https://muze-musicapp.netlify.com/result';
+    const redirect_uri = 'https://muze-musicapp.netlify.app/result';
 
     var scopes = 'user-read-private user-read-email user-top-read user-read-recently-played';
     window.location.href = 'https://accounts.spotify.com/authorize' +
