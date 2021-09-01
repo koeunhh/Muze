@@ -37,7 +37,7 @@
     &__item{
       display: flex;
       align-items: center;
-      margin: 20px 0;
+      margin: 20px 40px;
   
         img {
           width: 78px;
@@ -50,7 +50,12 @@
           text-transform: capitalize;          
           font-family: 'Lato';
           font-size: 18px;
-          line-height: 0;
+          line-height: 18px;
+
+          width: 180px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
         }
     }
   }
